@@ -1,27 +1,76 @@
-import { useState } from 'react';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
 
 function App() {
+  const [color, setColor] = useState("violet");
 
-  const [bgColor, setbgColor] = useState('violet')
-
-  function to_Violet()
-  {
-    setbgColor('red')
+  function to_violet() {
+    setColor("violet");
   }
+
+  function to_indigo() {
+    setColor("indigo");
+  }
+
+  function to_blue() {
+    setColor("blue");
+  }
+
+  function to_green() {
+    setColor("green");
+  }
+
+  function to_yellow() {
+    setColor("yellow");
+  }
+
+  function to_orange() {
+    setColor("orange");
+  }
+
+  function to_red() {
+    setColor("red");
+  }
+
+  const divStyle = {
+    width: "100vw",
+    height: "100vh",
+    backgroundColor: color,
+  };
+
   return (
-    <div style={{ bgColor }}>
-      <div className='btn-container'>
-        <button className='btn violet' onClick={to_Violet}>Violet</button>
-        <button className='btn indigo'>Indigo</button>
-        <button className='btn blue'>Blue</button>
-        <button className='btn green'>Green</button>
-        <button className='btn yellow'>Yellow</button>
-        <button className='btn orange'>Orange</button>
-        <button className='btn red'>Red</button>
+    <div className="box" style={divStyle}>
+      <div className="btn-container">
+        <button className="btn violet" onClick={to_violet}>
+          Violet
+        </button>
+        <button className="btn indigo" onClick={to_indigo}>
+          Indigo
+        </button>
+        <button className="btn blue" onClick={to_blue}>
+          Blue
+        </button>
+        <button className="btn green" onClick={to_green}>
+          Green
+        </button>
+        <button className="btn yellow" onClick={to_yellow}>
+          Yellow
+        </button>
+        <button className="btn orange" onClick={to_orange}>
+          Orange
+        </button>
+        <button className="btn red" onClick={to_red}>
+          Red
+        </button>
       </div>
     </div>
   );
 }
 
 export default App;
+
+{
+  /* <div className='container'>
+     
+      </div> */
+}

@@ -1,9 +1,11 @@
-*{
+.box {
   margin: 0;
   padding: 0;
+  background-size: cover;
+  border: 1px solid black;
 }
 
-.btn-container{
+.btn-container {
   margin: 35rem 15rem 0 15rem;
   padding: 1rem;
   /* border: 1px solid red; */
@@ -13,7 +15,7 @@
   background-color: white;
 }
 
-.btn{
+.btn {
   width: 6rem;
   padding: 0.8rem;
   border-radius: 15px;
@@ -24,31 +26,30 @@
   color: black;
 }
 
-.violet{
+.violet {
   background-color: violet;
 }
 
-.indigo{
+.indigo {
   background-color: indigo;
 }
 
-.blue{
+.blue {
   background-color: blue;
 }
 
-.green{
+.green {
   background-color: green;
 }
 
-.yellow{
+.yellow {
   background-color: yellow;
 }
 
-.orange{
+.orange {
   background-color: orange;
 }
 
-.red{
+.red {
   background-color: red;
 }
-
