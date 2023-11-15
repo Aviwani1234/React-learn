@@ -44,6 +44,11 @@ function App() {
         <button className="btn violet" onClick={to_violet}>
           Violet
         </button>
+
+        {/* we can write onClick method as follow as well, so it reduce code length:
+            onClick = {()=> setColor("violet")}
+            with help of above we don't need of to_violet function*/}
+            
         <button className="btn indigo" onClick={to_indigo}>
           Indigo
         </button>
@@ -69,8 +74,3 @@ function App() {
 
 export default App;
 
-{
-  /* <div className='container'>
-     
-      </div> */
-}
