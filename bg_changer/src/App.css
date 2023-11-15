@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.btn-container{
+  margin: 35rem 15rem 0 15rem;
+  padding: 1rem;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.btn{
+  width: 6rem;
+  padding: 0.8rem;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  color: black;
+}
+
+.violet{
+  background-color: violet;
+}
+
+.indigo{
+  background-color: indigo;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.green{
+  background-color: green;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.red{
+  background-color: red;
+}
+
